@@ -1,0 +1,15 @@
+[project]
+name = "getting-started"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+getting-started = "getting_started:main"
+getting-started-main = "getting_started.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
