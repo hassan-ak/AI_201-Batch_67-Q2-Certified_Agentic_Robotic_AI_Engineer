@@ -1,5 +1,14 @@
 # OpenAI Agents SDK: Provides a Foundational Layer For Building AI Agents
 
+**Table of Content**
+
+- [OpenAI Agents SDK: Provides a Foundational Layer For Building AI Agents](#openai-agents-sdk-provides-a-foundational-layer-for-building-ai-agents)
+  - [Questions to Start Thinking](#questions-to-start-thinking)
+    - [Core Concepts : The Power of Simplicity in Design](#core-concepts--the-power-of-simplicity-in-design)
+    - [Key Features](#key-features)
+    - [Why It Matters](#why-it-matters)
+  - [Early Reviews](#early-reviews)
+
 The OpenAI Agents SDK is an open‐source, lightweight framework that lets developers build and orchestrate “agentic” AI applications—systems where multiple AI “agents” work together to perform complex, multi-step tasks autonomously.
 
 **[OpenAI Agents SDK Panaversity Classes Video Playlist](https://www.youtube.com/playlist?list=PL0vKVrkG4hWovpr0FX6Gs-06hfsPDEUe6)**
@@ -117,16 +126,3 @@ Developers are giving the OpenAI Agents SDK high marks for its simplicity and po
 Overall, developers and early adopters are very positive about the SDK, praising it for reducing manual prompt engineering, enabling more autonomous agents, and providing clear, actionable feedback through its tracing tools. The enthusiasm from the community and growing enterprise interest signal that this framework could become a cornerstone for future AI applications.
 
 ---
-
----
-
----
-
-**Table of Content**
-
-- [OpenAI Agents SDK: Provides a Foundational Layer For Building AI Agents](#openai-agents-sdk-provides-a-foundational-layer-for-building-ai-agents)
-  - [Questions to Start Thinking](#questions-to-start-thinking)
-    - [Core Concepts : The Power of Simplicity in Design](#core-concepts--the-power-of-simplicity-in-design)
-    - [Key Features](#key-features)
-    - [Why It Matters](#why-it-matters)
-  - [Early Reviews](#early-reviews)
