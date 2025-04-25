@@ -25,34 +25,6 @@ OpenRouter provides a single, consistent API for accessing over 200 large langua
    Models ending with `:free` are free-tier and subject to rate limits (see §3).  
    Example: `deepseek-chat-v3-0324:free`
 
-3. **Install the SDK**
-
-   ```bash
-   pip install openrouter
-   ```
-
-4. **Python Example**
-
-   ```python
-   import openrouter
-
-   client = openrouter.OpenRouter(api_key="YOUR_API_KEY")
-   response = client.chat.completions.create(
-       model="deepseek-chat-v3-0324:free",
-       messages=[
-           {"role": "user", "content": "Hello, world!"}
-       ]
-   )
-   print(response.choices[0].message.content)
-   ```
-
-5. **OpenAI Agents SDK**  
-   Simply update the environment variables:
-   ```bash
-   export OPENAI_API_KEY="YOUR_API_KEY"
-   export OPENAI_API_BASE="https://openrouter.ai/api/v1"
-   ```
-
 ## 2. Features
 
 - **Multi-Provider Routing**  
