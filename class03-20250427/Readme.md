@@ -5,7 +5,6 @@
   - [Chat Completions API vs Responses API](#chat-completions-api-vs-responses-api)
     - [Chat Completions API](#chat-completions-api)
     - [Responses API](#responses-api)
-  - [Design patterns](#design-patterns)
 
 
 ## Chat Completions API vs Responses API
@@ -22,7 +21,3 @@ Key features include:
 - Enhanced Flexibility: With a more flexible structure, the Responses API supports complex workflows and agentic behaviors, making it suitable for developing sophisticated AI agents capable of handling a variety of tasks.
 
 ---
-
-## Design patterns
-
-Design patterns are proven, reusable solutions to common problems in software design. They act like templates or best practices that help developers write cleaner, more efficient, and maintainable code. Instead of reinventing the wheel, developers use these patterns to solve problems in a standardized way, making code easier to understand and collaborate on.
