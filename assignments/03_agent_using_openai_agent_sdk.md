@@ -1,60 +1,60 @@
-# Assignment 03: Create a "Content Writer" Agent using OpenAI Agent SDK
+# Assignment 03: Create a Agent using OpenAI Agent SDK
 
 ---
 
 ## 🎯 Objective
 
-Develop a Content Writer agent using the **OpenAI Agents SDK** that can perform a specific task within a chosen domain. This exercise will help you understand the foundational concepts of agent creation and interaction.
+Develop a AI agent using the **OpenAI Agents SDK** that can perform a specific task within a chosen domain. This exercise will help you understand the foundational concepts of agent creation and interaction.
 
 ---
 
 ## 📌 Requirements
 
 1. **Domain Selection**
-    
-    Choose a specific domain such as:
-    
-    - Education
-    - Healthcare
-    - Finance
-    - Entertainment
-    - Others
+
+   Choose a specific domain such as:
+
+   - Education
+   - Healthcare
+   - Finance
+   - Entertainment
+   - Others
+
 2. **Agent Development**
-    - Define the agent's **purpose** and **capabilities** within the chosen domain.
-    - Implement the agent using the **OpenAI Agents SDK**.
+
+   - Define the agent's **purpose** and **capabilities** within the chosen domain.
+   - Implement the agent using the **OpenAI Agents SDK**.
+
 3. **Interaction**
-    - Design sample **interactions or tasks** the agent can perform.
-    - Ensure the agent provides **meaningful and accurate** responses.
+   - Design sample **interactions or tasks** the agent can perform.
+   - Ensure the agent provides **meaningful and accurate** responses.
+   - Once the agent has completed its task, the agent should save the output in an `output.md` file located at the root of the project.
 
 ---
 
-## 📝 Example Agent: *MoodMate* — A Mental Health Check-In Assistant
+## 📝 Example Agent: _MoodMate_ — A Mental Health Check-In Assistant
 
 > A simple and supportive AI agent that helps users express their feelings, reflect on their mental state, and receive gentle encouragement. MoodMate is not a medical advisor — it's a thoughtful friend.
-> 
 
 ---
 
-## 🛠️ Setup & Usage
+## 🛠️ Setup & Usage (Example Implementation)
 
 ### 1. **Create Project Using `uv`**
 
 ```bash
 uv init --package moodmate
 cd moodmate
-
 ```
 
 > This will generate `pyproject.toml`, `.gitignore,` `README.md`, and set up a virtual environment.
-> 
 
 ---
 
 ### 2. **Add Dependencies**
 
 ```bash
-uv add openai-agents
-
+uv add openai-agents <any-other-required-dependency>
 ```
 
 ---
@@ -63,7 +63,6 @@ uv add openai-agents
 
 ```bash
 GEMINI_API_KEY=your-api-key
-
 ```
 
 Replace `your-api-key` with your actual Gemini API key.
@@ -90,7 +89,6 @@ moodmate = Agent(
 
 result = Runner.run_sync(moodmate, "I've been feeling anxious and low energy lately.")
 print(result.final_output)
-
 ```
 
 ---
@@ -99,7 +97,6 @@ print(result.final_output)
 
 ```bash
 uv run run_agent
-
 ```
 
 ---
@@ -113,13 +110,10 @@ uv run run_agent
 **🔸 Output:**
 
 > I'm really sorry to hear that you're feeling this way. It's completely okay to feel anxious and drained — you're not alone. Sometimes our minds and bodies need a pause, and it's important to honor that.
-> 
-> 
+>
 > Have you had a chance to do something just for yourself lately, like a short walk, journaling, or deep breathing?
-> 
+>
 > What’s one small thing you could do today that feels gentle and kind to yourself?
-> 
-
 ---
 
 ### 🔹 Prompt:
@@ -129,13 +123,10 @@ uv run run_agent
 **🔸 Output:**
 
 > It sounds like you’re carrying a heavy load. That’s a lot for anyone. Remember, it's okay to take things one step at a time and prioritize self-care.
-> 
-> 
+>
 > Have you considered creating a to-do list to manage your tasks? Sometimes breaking things down can make them feel more manageable.
-> 
+>
 > What’s one task you can focus on right now to ease your mind?
-> 
-
 ---
 
 ## 📘 What You'll Learn
@@ -163,7 +154,6 @@ git push -u origin main
 ```
 
 > Replace your-username with your actual GitHub username.
-> 
 
 ---
 
@@ -174,6 +164,5 @@ Submit your **GitHub repository link** in **Google Classroom** under this assign
 ---
 
 > 💡 Tip: Build something empathetic. Good luck! 🌱
-> 
 
 ---
