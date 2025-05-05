@@ -1,7 +1,7 @@
-# Class 01 - 2024/04/13 - Batch 67 - Q2 (Certified Agentic Robotic AI Engineer)
+# Class 01 - 2025/04/13 - Batch 67 - Q2 (Certified Agentic Robotic AI Engineer)
 
 **Table of Content**
-- [Class 01 - 2024/04/13 - Batch 67 - Q2 (Certified Agentic Robotic AI Engineer)](#class-01---20240413---batch-67---q2-certified-agentic-robotic-ai-engineer)
+- [Class 01 - 2025/04/13 - Batch 67 - Q2 (Certified Agentic Robotic AI Engineer)](#class-01---20250413---batch-67---q2-certified-agentic-robotic-ai-engineer)
 - [Comprehensive Guide to Dapr Agentic Cloud Ascent (DACA) Design Pattern](#comprehensive-guide-to-dapr-agentic-cloud-ascent-daca-design-pattern)
   - [Introduction](#introduction)
   - [What is DACA?](#what-is-daca)

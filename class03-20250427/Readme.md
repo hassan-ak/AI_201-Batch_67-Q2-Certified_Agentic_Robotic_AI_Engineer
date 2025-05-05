@@ -1,7 +1,7 @@
-# Class 03 - 2024/04/27 - Batch 67 - Q2 (Certified Agentic Robotic AI Engineer)
+# Class 03 - 2025/04/27 - Batch 67 - Q2 (Certified Agentic Robotic AI Engineer)
 
 **Table of Content**
-- [Class 03 - 2024/04/27 - Batch 67 - Q2 (Certified Agentic Robotic AI Engineer)](#class-03---20240427---batch-67---q2-certified-agentic-robotic-ai-engineer)
+- [Class 03 - 2025/04/27 - Batch 67 - Q2 (Certified Agentic Robotic AI Engineer)](#class-03---20250427---batch-67---q2-certified-agentic-robotic-ai-engineer)
   - [Chat Completions API vs Responses API](#chat-completions-api-vs-responses-api)
     - [Chat Completions API](#chat-completions-api)
     - [Responses API](#responses-api)
