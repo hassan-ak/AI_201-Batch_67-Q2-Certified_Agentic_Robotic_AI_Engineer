@@ -16,7 +16,6 @@ global = "agent_hello.global_config:main"
 agent = "agent_hello.agent_config:main"
 runner = "agent_hello.runner_config:main"
 async_run = "agent_hello.async_run:run_main"
-with_tool = "agent_hello.with_tool:main"
 
 
 
