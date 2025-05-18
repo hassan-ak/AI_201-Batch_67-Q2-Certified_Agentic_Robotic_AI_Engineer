@@ -9,7 +9,6 @@ from agents import (
 )
 from typing import cast
 from rich import print
-import json
 
 
 @cl.on_chat_start
@@ -44,35 +43,28 @@ async def start():
 @cl.on_message
 async def main(message: cl.Message):
 
-    msg = cl.Message(content="Thinking...")
-    await msg.send()
+    msg = cl.Message(content="")
 
     agent: Agent = cast(Agent, cl.user_session.get("agent"))
 
     history = cl.user_session.get("history") or []
+    
+    print(history)
 
     history.append({"role": "user", "content": message.content})
 
     try:
-        result = Runner.run_sync(starting_agent=agent, input=history)
-
-        msg.content = result.final_output
-
+        result = Runner.run_streamed(starting_agent=agent, input=history)
+        
+        async for event in result.stream_events():
+            if event.type == "raw_response_event" and hasattr(event.data, 'delta'):
+                token = event.data.delta
+                await msg.stream_token(token)
+        history.append({"role": "assistant", "content": msg.content})
+        cl.user_session.set("history", history)
         await msg.update()
-
-        cl.user_session.set("history", result.to_input_list())
 
     except Exception as e:
         
         msg.content = f"An error occurred while processing your request, Please try again. \n Error:{e}"
         await msg.update()
-
-        print(f"Error updating message: {e}")
-
-@cl.on_chat_end
-async def end():
-    history = cl.user_session.get("history") or []
-    
-    with open("chat_history.json", "w") as f:
-        json.dump(history, f, indent=4)
-    
