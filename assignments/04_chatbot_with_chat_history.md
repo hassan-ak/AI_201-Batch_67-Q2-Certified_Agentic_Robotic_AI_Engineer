@@ -39,6 +39,6 @@ Create an intelligent chatbot using the **Chainlit** framework integrated with t
 
 2. Push to GitHub:
 
-3. **Submit Your Link**
+3. Submit Your Link
 
-Submit your **GitHub repository link** in **Google Classroom** under this assignment.
+    - Submit your **GitHub repository link** in **Google Classroom** under this assignment.
