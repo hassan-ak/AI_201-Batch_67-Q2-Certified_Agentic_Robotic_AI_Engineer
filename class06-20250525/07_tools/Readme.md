@@ -1,1 +1,0 @@
-# Tool calling in OpenAI Agent SDK
