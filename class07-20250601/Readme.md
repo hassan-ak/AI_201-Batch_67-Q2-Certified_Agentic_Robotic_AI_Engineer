@@ -1,0 +1,1 @@
+# Class 07 - 2025/06/01 - Batch 67 - Q2 (Certified Agentic Robotic AI Engineer)
