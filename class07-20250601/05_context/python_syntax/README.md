@@ -1,1 +1,0 @@
-# Geting started with Dataclasses, Generics and Callable
