@@ -1,0 +1,17 @@
+[project]
+name = "runner-lifecycle"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "openai-agents>=0.0.17",
+    "rich>=14.0.0",
+]
+
+[project.scripts]
+runner-lifecycle = "runner_lifecycle.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
